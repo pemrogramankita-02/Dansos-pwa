@@ -1,0 +1,37 @@
+{
+  "name": "Dansos - Dana Sosial",
+  "short_name": "Dansos",
+  "description": "Aplikasi Dana Sosial",
+  "start_url": "https://script.google.com/macros/s/AKfycby3BAMptxodqP9TcnfsRwSUtyKyMrXVisnOzbIORuFOMjviKd2v1eXWqh2vSvYcC2_N/exec",
+  "scope": "/",
+  "display": "standalone",
+  "display_override": [
+    "window-controls-overlay",
+    "standalone"
+  ],
+  "orientation": "portrait",
+  "lang": "id-ID",
+  "dir": "ltr",
+  "theme_color": "#123460",
+  "background_color": "#123460",
+  "icons": [
+    {
+      "src": "icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icons/icon-1024.png",
+      "sizes": "1024x1024",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}

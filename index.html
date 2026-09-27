@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#123460">
+  <link rel="manifest" href="./manifest.json">
+  <link rel="icon" href="./icons/icon-192.png">
+  <title>Dansos - Dana Sosial</title>
+  <style>
+    html,body{margin:0;width:100%;height:100%;background:#123460;font-family:Arial,sans-serif}
+    .loading{height:100%;display:flex;align-items:center;justify-content:center;color:#fff;flex-direction:column;gap:14px}
+    .loading img{width:92px;height:92px;border-radius:22px}
+  </style>
+</head>
+<body>
+  <div class="loading">
+    <img src="./icons/icon-192.png" alt="Dansos">
+    <div>Membuka Dansos...</div>
+  </div>
+  <script>
+    if ('serviceWorker' in navigator) navigator.serviceWorker.register('./service-worker.js').catch(()=>{});
+    location.replace("https://script.google.com/macros/s/AKfycby3BAMptxodqP9TcnfsRwSUtyKyMrXVisnOzbIORuFOMjviKd2v1eXWqh2vSvYcC2_N/exec");
+  </script>
+</body>
+</html>
